@@ -1,13 +1,15 @@
 .container {
     background-color:#fff;
     width: 100%;
-    max-width: 1000px;
+    max-width: 1700px;
+    display: grid;
+    justify-content: center;
     text-align: center;
-    margin-left: 150px;
 }
 
 .post-container {
     display: grid;
+    max-width: 1000px;
     justify-content: center;
     grid-row-gap: 50px;
     color: #000;
@@ -15,7 +17,7 @@
 }
 
 .post-title {
-    color: #000;
+    color: rgb(68, 67, 67);
     margin-bottom: 12px;
 }
 
@@ -33,5 +35,7 @@
 }
 
 .post-body {
-    color: #777B7E;
+    color: #424344;
+    font-size: 18px;
+    line-height: 24px;
 }

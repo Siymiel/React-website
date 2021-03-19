@@ -16,29 +16,32 @@
   font-size: 3rem;
 }
 
-/* .services {
-  background-image: url('/images/img-2.jpg');
+.services {
+  /* background-image: 'url("../src/assets/img-2.jpg")'; */
+  background-color:darkcyan;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: rgb(8, 8, 8);
   font-size: 100px;
 }
 
 .products {
-  background-image: url('/images/img-1.jpg');
+  /* background-image: 'url("../src/assets/img-1.jpg")'; */
+  background-color: mediumseagreen;
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
-  color: #fff;
+  color: rgb(19, 18, 18);
   font-size: 100px;
 }
 
 .sign-up {
-  background-image: url('/images/img-8.jpg');
+  /* background-image: 'url("../src/assets/img-8.jpg")'; */
+  background-color: teal;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: rgb(20, 19, 19);
   font-size: 100px;
-} */
+}

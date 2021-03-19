@@ -1,0 +1,31 @@
+.galleryclass{
+    display: flex;
+    max-width: 1200px;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.gallery_images{
+    padding: 10px;
+    display: flex;
+    flex: 1;
+}
+
+.image{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+h1{
+    padding: 10px;
+}
+
+/* @media only screen and (min-width: 1200px) {
+    .galleryclass{
+        display:flex;
+    }
+} */
